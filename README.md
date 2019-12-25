@@ -4,21 +4,44 @@ supervised data (labeled data).
 We will show this on the MNIST dataset with different number of labeled datapoints each time.
 
 The base code of this repository is from: https://machinelearningmastery.com/semi-supervised-generative-adversarial-network/ 
-, by Jason Brownlee. The code written here is a direct extension of the article.
+, by Jason Brownlee. The code written here is a direct extension of the article, function added/changed (other than the generation of graphs):
+1. train_stand_alone_c
+2. train
+3. summarize_performance
+4. define_standalone_calssifier
+5. load_mnist
 
 The results:
 1. With data augmentation:
 
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a>
-    <img src="images/logo.png" width="80" height="80">
+    <img src="Graphs/MODEL_ACC_WITH_AUG.PNG" width="432" height="288">
+  </a>
+</p>
+
+<br />
+<p align="center">
+  <a>
+    <img src="Graphs/DIFF_WITH_AUG.PNG" width="432" height="288">
   </a>
 </p>
 
 2. Without data augmentation:
+<br />
+<p align="center">
+  <a>
+    <img src="Graphs/MODEL_ACC_WITHOUT_AUG.PNG" width="432" height="288">
+  </a>
+</p>
 
+<br />
+<p align="center">
+  <a>
+    <img src="Graphs/DIFF_WITHOUT_AUG.PNG" width="432" height="288">
+  </a>
+</p>
 
 <!-- GETTING STARTED -->
 # GETTING STARTED
