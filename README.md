@@ -8,7 +8,7 @@ The base code of this repository is from: https://machinelearningmastery.com/sem
 1. train_stand_alone_c
 2. train
 3. summarize_performance
-4. define_standalone_calssifier
+4. define_standalone_classifier
 5. load_mnist
 
 The results:
