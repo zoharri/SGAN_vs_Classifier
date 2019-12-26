@@ -95,7 +95,7 @@ def define_discriminator(in_shape=(28,28,1), n_classes=10):
 
 
 # Define the standalone classifier model
-def define_standalone_calssifier(in_shape=(28,28,1), n_classes=10):
+def define_standalone_classifier(in_shape=(28,28,1), n_classes=10):
     # image input
     in_image = Input(shape=in_shape)
     # Conv Layer and downsample
@@ -470,7 +470,7 @@ if stand_alone_flag:
         
        
         # create the standalone classifier
-        c_model = define_standalone_calssifier(n_classes=n_classes)
+        c_model = define_standalone_classifier(n_classes=n_classes)
     
         # load image data
         dataset = load_real_samples()
